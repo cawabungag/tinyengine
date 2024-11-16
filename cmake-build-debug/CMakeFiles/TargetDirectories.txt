@@ -1,0 +1,3 @@
+/Users/cawabunga/tinyengine/cmake-build-debug/CMakeFiles/tinyengine.dir
+/Users/cawabunga/tinyengine/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/cawabunga/tinyengine/cmake-build-debug/CMakeFiles/rebuild_cache.dir

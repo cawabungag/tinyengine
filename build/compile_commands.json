@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/cawabunga/tinyengine/build",
+  "command": "/usr/bin/clang++  -I/Users/cawabunga/tinyengine/libs -I/opt/homebrew/Cellar/sdl2/2.30.1/include -I/opt/homebrew/include/lua -isystem /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2 -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/tinyengine.dir/src/Game.cpp.o -c /Users/cawabunga/tinyengine/src/Game.cpp",
+  "file": "/Users/cawabunga/tinyengine/src/Game.cpp",
+  "output": "CMakeFiles/tinyengine.dir/src/Game.cpp.o"
+},
+{
+  "directory": "/Users/cawabunga/tinyengine/build",
+  "command": "/usr/bin/clang++  -I/Users/cawabunga/tinyengine/libs -I/opt/homebrew/Cellar/sdl2/2.30.1/include -I/opt/homebrew/include/lua -isystem /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2 -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/tinyengine.dir/src/Main.cpp.o -c /Users/cawabunga/tinyengine/src/Main.cpp",
+  "file": "/Users/cawabunga/tinyengine/src/Main.cpp",
+  "output": "CMakeFiles/tinyengine.dir/src/Main.cpp.o"
+}
+]
