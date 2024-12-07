@@ -12,12 +12,14 @@ CMakeFiles/tinyengine.dir/src/Game.cpp.o: /Users/cawabunga/tinyengine/src/Game.c
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/__wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/__xlocale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_abort.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_ctermid.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_locale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_mb_cur_max.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_printf.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_static_assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_stdlib.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_string.h \
@@ -45,6 +47,7 @@ CMakeFiles/tinyengine.dir/src/Game.cpp.o: /Users/cawabunga/tinyengine/src/Game.c
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/arm/limits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/arm/signal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/arm/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/all_of.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/any_of.h \
@@ -751,8 +754,10 @@ CMakeFiles/tinyengine.dir/src/Game.cpp.o: /Users/cawabunga/tinyengine/src/Game.c
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/atomic \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/bit \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cctype \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cerrno \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cfloat \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/climits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/clocale \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cmath \
@@ -971,57 +976,229 @@ CMakeFiles/tinyengine.dir/src/Game.cpp.o: /Users/cawabunga/tinyengine/src/Game.c
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
+  /Users/cawabunga/tinyengine/libs/glm/matrix.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat2x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat2x3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat2x3.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat2x4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat2x4.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat3x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat3x2.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat3x3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat3x3.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat3x4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat3x4.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat4x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat4x2.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat4x3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat4x3.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat4x4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat4x4.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_vec2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_vec3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_vec4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double2x3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double2x3_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double2x4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double2x4_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double3x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double3x2_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double3x3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double3x3_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double3x4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double3x4_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double4x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double4x2_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double4x3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double4x3_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double4x4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double4x4_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float2x3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float2x3_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float2x4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float2x4_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float3x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float3x2_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float3x3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float3x3_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float3x4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float3x4_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float4x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float4x2_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float4x3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float4x3_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float4x4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float4x4_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/common.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/func_vector_relational.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/qualifier.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/setup.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/vector_relational.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/compute_vector_relational.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/_fixes.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/_vectorize.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/compute_common.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/func_common.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/func_exponential.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/qualifier.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/setup.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_vec1.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_vec1.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_vec2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_vec3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_vec4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/exponential.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/func_geometric.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_vec3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/geometric.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/func_matrix.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/qualifier.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/setup.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat2x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat2x3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat2x4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat3x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat3x3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat3x4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat4x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat4x3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat4x4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/matrix.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/vec2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/vec3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/vec4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/compute_vector_relational.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/setup.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/compute_vector_relational.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/qualifier.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/setup.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat2x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_mat2x2.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_vec2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_vec2.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_vec3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_vec3.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_vec4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_vec4.inl \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double2x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_double2x2_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float2x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/matrix_float2x2_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_bool2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_bool2_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_bool3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_bool3_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_bool4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_bool4_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_double2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_double2_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_double3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_double3_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_double4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_double4_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_float2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_float2_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_float3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_float3_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_float4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_float4_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_int2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_int2_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_int3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_int3_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_int4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_int4_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_uint2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_uint2_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_uint3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_uint3_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_uint4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/ext/vector_uint4_precision.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/common.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/common.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/simd/platform.h \
+  /Users/cawabunga/tinyengine/libs/glm/detail/_fixes.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/_vectorize.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/func_integer.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/func_packing.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/func_trigonometric.inl \
+  /Users/cawabunga/tinyengine/libs/glm/detail/qualifier.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/setup.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_half.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/detail/type_half.inl \
+  /Users/cawabunga/tinyengine/libs/glm/exponential.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/fwd.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/geometric.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/glm.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/integer.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat2x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat2x3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat2x4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat3x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat3x3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat3x4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat4x2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat4x3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/mat4x4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/matrix.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/packing.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/trigonometric.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/vec2.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/vec3.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/vec4.hpp \
+  /Users/cawabunga/tinyengine/libs/glm/vector_relational.hpp \
   /Users/cawabunga/tinyengine/src/Game.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_assert.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_atomic.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_audio.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_blendmode.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_clipboard.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_config.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_cpuinfo.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_endian.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_error.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_events.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_filesystem.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_gamecontroller.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_gesture.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_guid.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_haptic.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_hidapi.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_hints.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_joystick.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_keyboard.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_keycode.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_loadso.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_locale.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_log.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_main.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_messagebox.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_metal.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_misc.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_mouse.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_mutex.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_pixels.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_platform.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_power.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_quit.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_rect.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_render.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_rwops.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_scancode.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_sensor.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_shape.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_stdinc.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_surface.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_system.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_thread.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_timer.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_touch.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_version.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_video.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/begin_code.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/close_code.h
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_assert.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_atomic.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_audio.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_blendmode.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_clipboard.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_config.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_cpuinfo.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_endian.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_error.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_events.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_filesystem.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_gamecontroller.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_gesture.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_guid.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_haptic.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_hidapi.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_hints.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_joystick.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_keyboard.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_keycode.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_loadso.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_locale.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_log.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_main.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_messagebox.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_metal.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_misc.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_mouse.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_mutex.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_pixels.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_platform.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_power.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_quit.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_rect.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_render.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_rwops.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_scancode.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_sensor.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_shape.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_stdinc.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_surface.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_system.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_thread.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_timer.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_touch.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_version.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_video.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/begin_code.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/close_code.h \
+  /opt/homebrew/Cellar/sdl2_image/2.8.2_2/include/SDL2/SDL_image.h
 
 CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/Availability.h \
@@ -1357,107 +1534,265 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
   /Users/cawabunga/tinyengine/src/Game.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_assert.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_atomic.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_audio.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_blendmode.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_clipboard.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_config.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_cpuinfo.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_endian.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_error.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_events.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_filesystem.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_gamecontroller.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_gesture.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_guid.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_haptic.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_hidapi.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_hints.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_joystick.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_keyboard.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_keycode.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_loadso.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_locale.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_log.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_main.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_messagebox.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_metal.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_misc.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_mouse.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_mutex.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_pixels.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_platform.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_power.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_quit.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_rect.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_render.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_rwops.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_scancode.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_sensor.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_shape.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_stdinc.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_surface.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_system.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_thread.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_timer.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_touch.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_version.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_video.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/begin_code.h \
-  /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/close_code.h
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_assert.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_atomic.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_audio.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_blendmode.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_clipboard.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_config.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_cpuinfo.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_endian.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_error.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_events.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_filesystem.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_gamecontroller.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_gesture.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_guid.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_haptic.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_hidapi.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_hints.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_joystick.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_keyboard.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_keycode.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_loadso.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_locale.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_log.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_main.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_messagebox.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_metal.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_misc.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_mouse.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_mutex.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_pixels.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_platform.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_power.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_quit.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_rect.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_render.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_rwops.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_scancode.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_sensor.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_shape.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_stdinc.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_surface.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_system.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_thread.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_timer.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_touch.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_version.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_video.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/begin_code.h \
+  /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/close_code.h
 
+
+/opt/homebrew/Cellar/sdl2_image/2.8.2_2/include/SDL2/SDL_image.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/close_code.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_video.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_timer.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_system.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_surface.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_scancode.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_rwops.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_metal.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_messagebox.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_main.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_loadso.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_keycode.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_keyboard.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_haptic.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_events.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_cpuinfo.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_clipboard.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_blendmode.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_audio.h:
+
+/Users/cawabunga/tinyengine/src/Game.h:
+
+/Users/cawabunga/tinyengine/libs/glm/trigonometric.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/integer.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/glm.hpp:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_endian.h:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/type_half.inl:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_config.h:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/type_half.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/func_trigonometric.inl:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/func_packing.inl:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_uint4.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_uint3.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_uint2.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_int4.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_int3_precision.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_int2.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_float4_precision.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_float3_precision.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_float3.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_float2_precision.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_double4_precision.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_double3_precision.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_double3.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_double2_precision.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_bool4_precision.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_bool4.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_bool3_precision.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_bool3.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float2x2_precision.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double2x2_precision.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/type_vec4.inl:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/type_vec3.inl:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/type_vec2.inl:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat2x2.inl:
+
+/Users/cawabunga/tinyengine/libs/glm/vec3.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/mat4x4.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/mat4x3.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/mat3x4.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/mat3x3.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/mat3x2.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/mat2x3.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/mat2x2.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/geometric.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/type_vec1.inl:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/func_common.inl:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/_vectorize.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/compute_vector_relational.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/vector_relational.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/qualifier.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/func_vector_relational.inl:
+
+/Users/cawabunga/tinyengine/libs/glm/common.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float4x4_precision.hpp:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_shape.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float4x2.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float3x4_precision.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float3x3.hpp:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_error.h:
+
+/Users/cawabunga/tinyengine/libs/glm/packing.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float3x2_precision.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float3x2.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double4x4_precision.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double4x3.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double4x2.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double3x4.hpp:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double2x3_precision.hpp:
 
 /Users/cawabunga/tinyengine/src/Main.cpp:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/close_code.h:
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double2x3.hpp:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/begin_code.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/type_vec4.hpp:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_video.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/type_vec3.hpp:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_touch.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/type_vec2.hpp:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_surface.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat4x4.inl:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_stdinc.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat4x4.hpp:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_scancode.h:
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double4x4.hpp:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_rwops.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat4x3.inl:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_render.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat4x3.hpp:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_power.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat4x2.inl:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_mouse.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat4x2.hpp:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_messagebox.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat3x4.hpp:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_locale.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat3x3.inl:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_loadso.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat3x3.hpp:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_keycode.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat3x2.hpp:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_mutex.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat2x3.inl:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_joystick.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat2x2.hpp:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_hints.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_endian.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_cpuinfo.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_blendmode.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_audio.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_atomic.h:
-
-/Users/cawabunga/tinyengine/src/Game.h:
+/Users/cawabunga/tinyengine/libs/glm/matrix.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h:
 
@@ -1483,7 +1818,11 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_list.h:
 
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double4x2_precision.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_copy.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_arg.h:
 
@@ -1500,6 +1839,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/xlocale.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/time.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double3x4_precision.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/types.h:
 
@@ -1533,8 +1874,6 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_suseconds_t.h:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_error.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_u_int32_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_sigset_t.h:
@@ -1547,13 +1886,19 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_mode_t.h:
 
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_int4_precision.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_mbstate_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_key_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_int8_t.h:
 
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_stdinc.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_in_port_t.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float3x4.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_gid_t.h:
 
@@ -1563,8 +1908,6 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_fd_setsize.h:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_timer.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_fd_set.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_fd_isset.h:
@@ -1572,6 +1915,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_fd_def.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_fd_copy.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_int2_precision.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_fd_clr.h:
 
@@ -1601,6 +1946,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
 
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_power.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
@@ -1620,6 +1967,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sched.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/runetype.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float2x3.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/pthread/sched.h:
 
@@ -1671,7 +2020,17 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/stdlib.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/stdexcept:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_clock_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/stddef.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/ratio:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/print:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double2x4.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/arm/signal.h:
 
@@ -1681,11 +2040,11 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/math.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/ratio:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/in_place.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iterator:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float2x3_precision.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/xlocale/_stdio.h:
 
@@ -1696,6 +2055,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/istream:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/initializer_list:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_int3.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__mutex/once_flag.h:
 
@@ -1745,6 +2106,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cerrno:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cassert:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/bitset:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/syslimits.h:
@@ -1785,11 +2148,17 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
 
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_float2.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/no_destroy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/statically_widen.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_platform.h:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat2x3.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/integer_sequence.h:
 
@@ -1802,6 +2171,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/transform.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/exchange.h:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat2x4.inl:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_offsetof.h:
 
@@ -1825,10 +2196,6 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/type_list.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_trivially_constructible.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/stack:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cstddef:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/type_identity.h:
@@ -1849,6 +2216,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h:
 
+/Users/cawabunga/tinyengine/libs/glm/detail/_fixes.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/remove_const.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__charconv/to_chars_floating_point.h:
@@ -1860,6 +2229,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/operation_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/maybe_const.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_assert.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_useconds_t.h:
 
@@ -1875,9 +2246,15 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/as_const.h:
 
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double3x2.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__fwd/subrange.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_trivially_default_constructible.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/stack:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_trivially_constructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_copy_assignable.h:
 
@@ -1925,8 +2302,6 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_fundamental.h:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_haptic.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_trivially_copy_assignable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h:
@@ -1936,6 +2311,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/in_out_result.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_enum.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_sensor.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/stdint.h:
 
@@ -1947,11 +2324,7 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_nothrow_move_assignable.h:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_guid.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_copy_constructible.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_metal.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_aggregate.h:
 
@@ -1959,9 +2332,13 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_convertible.h:
 
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_touch.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/malloc/_malloc.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_const.h:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/func_geometric.inl:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
 
@@ -1981,6 +2358,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/invoke.h:
 
+/Users/cawabunga/tinyengine/libs/glm/mat2x4.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/enable_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/disjunction.h:
@@ -1990,6 +2369,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_lower_bound.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/decay.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/begin_code.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_stdlib.h:
 
@@ -2005,9 +2386,13 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h:
 
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_gamecontroller.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/apply_cv.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_mutex.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/alignment_of.h:
 
@@ -2026,6 +2411,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_in_addr_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/add_pointer.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_float4.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/add_lvalue_reference.h:
 
@@ -2061,21 +2448,23 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__std_mbstate_t.h:
 
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_misc.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double3x3_precision.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__split_buffer:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__ranges/view_interface.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_find.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__ranges/enable_view.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_count.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/counted_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_double2.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_trivial.h:
 
@@ -2089,7 +2478,11 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
 
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_hidapi.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/rel_ops.h:
+
+/Users/cawabunga/tinyengine/libs/glm/vec2.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/pthread/pthread_impl.h:
 
@@ -2191,11 +2584,11 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/make_const_lvalue_ref.h:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_thread.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/has_virtual_destructor.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_rect.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/locale.h:
 
@@ -2214,6 +2607,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_member_pointer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__math/roots.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_double4.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__math/modulo.h:
 
@@ -2261,6 +2656,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/projected.h:
 
+/Users/cawabunga/tinyengine/libs/glm/detail/func_integer.inl:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/prev.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h:
@@ -2291,6 +2688,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
 
+/Users/cawabunga/tinyengine/libs/glm/simd/platform.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/has_unique_object_representation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/fold.h:
@@ -2303,6 +2702,10 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
 
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_gesture.h:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat3x4.inl:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_binary_search.h:
@@ -2313,6 +2716,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
 
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_uint3_precision.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/segmented_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
@@ -2320,6 +2725,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/advance.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__fwd/streambuf.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_filesystem.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_trivially_copy_constructible.h:
 
@@ -2343,6 +2750,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/unary_negate.h:
 
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double4x3_precision.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/reference_wrapper.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
@@ -2351,17 +2760,19 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_log.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_mouse.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/invoke.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/identity.h:
+
+/Users/cawabunga/tinyengine/libs/glm/exponential.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
 
@@ -2383,11 +2794,23 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/bind.h:
 
+/Users/cawabunga/tinyengine/libs/glm/vec4.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/binary_negate.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/conjunction.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/binary_function.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/errno.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/write_escaped.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_version.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/for_each.h:
 
@@ -2410,6 +2833,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/in_in_result.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/conditional.h:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/func_matrix.inl:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/format_to_n_result.h:
 
@@ -2439,6 +2864,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__config:
 
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float4x3.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/format_arg.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/wrap_iter.h:
@@ -2458,6 +2885,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/typeinfo:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/semiregular.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_thread.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_types/_uint16_t.h:
 
@@ -2485,7 +2914,11 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_unsigned_integer.h:
 
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_log.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
+
+/Users/cawabunga/tinyengine/libs/glm/mat4x2.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/pair.h:
 
@@ -2508,6 +2941,10 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__compare/compare_three_way.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__compare/common_comparison_category.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__tuple/tuple_indices.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cfloat:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/system_clock.h:
 
@@ -2553,21 +2990,17 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_clock_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/stddef.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__bit/has_single_bit.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/backend.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_clipboard.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/tuple:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/range_default_formatter.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__bit/countr.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float2x4_precision.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
 
@@ -2585,9 +3018,13 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/class_or_enum.h:
 
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float4x3_precision.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/find_segment_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__atomic/contention_t.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float4x4.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cctype:
 
@@ -2609,15 +3046,21 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__atomic/atomic_lock_free.h:
 
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_hints.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__math/error_functions.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/replace_if.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_quit.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/compare:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_nothrow_assignable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__tuple/tuple_like_ext.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_joystick.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__compare/compare_weak_order_fallback.h:
 
@@ -2661,9 +3104,13 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/permutable.h:
 
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double3x3.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/rotate.h:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat2x4.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_seek_set.h:
 
@@ -2676,8 +3123,6 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/formatter_tuple.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/reverse.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/replace_copy.h:
 
@@ -2694,8 +3139,6 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__math/min_max.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/compose.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_hidapi.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/remove.h:
 
@@ -2719,6 +3162,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/formatter_string.h:
 
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_uint2_precision.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__bit/bit_width.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_swap_ranges.h:
@@ -2727,21 +3172,17 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__ios/fpos.h:
 
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_bool2.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_stable_partition.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_events.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_sort_heap.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__tuple/tuple_indices.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/arm/limits.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_misc.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/integral_constant.h:
 
@@ -2755,13 +3196,9 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/common_with.h:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_platform.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_sort.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_filesystem.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_shuffle.h:
 
@@ -2774,8 +3211,6 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_search.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_rotate.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_quit.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_compound.h:
 
@@ -2793,9 +3228,15 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__ranges/enable_view.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_find.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/steady_clock.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__mbstate_t.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_render.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h:
 
@@ -2818,8 +3259,6 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_partition_point.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_partition.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/stdexcept:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_mach_port_t.h:
 
@@ -2869,6 +3308,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_minmax.h:
 
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float4x2_precision.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/cpp17_iterator_concepts.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
@@ -2889,9 +3330,9 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_copy_backward.h:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_gesture.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_lexicographical_compare.h:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/type_vec1.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h:
 
@@ -2915,9 +3356,13 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h:
 
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_locale.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_generate_n.h:
+
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_guid.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/swappable.h:
 
@@ -2933,6 +3378,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_merge.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/assert.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/remove_pointer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_is_sorted_until.h:
@@ -2941,11 +3388,15 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_allocator.h:
 
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_pixels.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/common_reference.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/max_element.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/is_sorted.h:
+
+/Users/cawabunga/tinyengine/libs/glm/detail/type_mat3x2.inl:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/stdio.h:
 
@@ -2960,10 +3411,6 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/add_cv.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_equal.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/binary_negate.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_keyboard.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/utility:
 
@@ -2987,6 +3434,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort_copy.h:
 
+/opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2/SDL_atomic.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/derived_from.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/find_end.h:
@@ -3005,8 +3454,6 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_adjacent_find.h:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_main.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_replace.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_types/_intmax_t.h:
@@ -3023,8 +3470,6 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/format_context.h:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_gamecontroller.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/stdlib.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_push_heap.h:
@@ -3036,6 +3481,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_generate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_find.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float2x2.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_frontend_dispatch.h:
 
@@ -3071,8 +3518,6 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_is_heap_until.h:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_system.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/sort_heap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/arm/_limits.h:
@@ -3081,29 +3526,7 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/readable_traits.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/extent.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/libdispatch.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/arm/endian.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_constant_evaluated.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_rotate_copy.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/search_n.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/min_element.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__atomic/aliases.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__ranges/concepts.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/unary_function.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/merge.h:
+/Users/cawabunga/tinyengine/libs/glm/detail/compute_common.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_types/_wctype_t.h:
 
@@ -3118,8 +3541,6 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_replace_if.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_version.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_backend.h:
 
@@ -3191,6 +3612,10 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/void_t.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_rotate_copy.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/aligned_union.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/for_each.h:
@@ -3199,11 +3624,27 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/cmp.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/search_n.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__atomic/aliases.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/min_element.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/transform.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_constant_evaluated.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/arm/endian.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/format_functions.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_move_assignable.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/make_projected.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory/align.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double2x2.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/stdio.h:
 
@@ -3211,9 +3652,15 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/extent.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/libdispatch.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__bit/bit_cast.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/operations.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_uint4_precision.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_constructible.h:
 
@@ -3241,6 +3688,12 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/move_backward.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__ranges/concepts.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/unary_function.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/merge.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/Availability.h:
@@ -3251,19 +3704,17 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_shape.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__exception/exception_ptr.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_sensor.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/__wctype.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_u_int.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/clamp.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double3x2_precision.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/concepts.h:
 
@@ -3283,11 +3734,11 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__atomic/kill_dependency.h:
 
+/Users/cawabunga/tinyengine/libs/glm/ext/vector_bool2_precision.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/arm/_types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_set_union.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_config.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__variant/monostate.h:
 
@@ -3301,8 +3752,6 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/any_of.h:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_pixels.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/fill.h:
@@ -3315,17 +3764,23 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_find_first_of.h:
 
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float2x4.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/relation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/wchar.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/errno.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__math/inverse_hyperbolic_functions.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/write_escaped.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/bind_front.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/formatter_integer.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_assert.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/negation.h:
 
@@ -3349,11 +3804,11 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_min.h:
 
+/Users/cawabunga/tinyengine/libs/glm/detail/setup.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__compare/partial_order.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_xlocale.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_wctype.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/move.h:
 
@@ -3362,8 +3817,6 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/range_formatter.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_destructible.h:
-
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_assert.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/in_out_out_result.h:
 
@@ -3385,13 +3838,21 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_wchar.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_reverse.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_printf.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_set_intersection.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_stable_sort.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/make_projected.h:
+/Users/cawabunga/tinyengine/libs/glm/fwd.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_move_assignable.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_static_assert.h:
+
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_float3x3_precision.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
 
@@ -3409,21 +3870,13 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__condition_variable/condition_variable.h:
 
-/opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2/SDL_rect.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/equal.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/weak_result_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_string.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/wchar.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__math/inverse_hyperbolic_functions.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/bind_front.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/formatter_integer.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_wctype.h:
 
 /Users/cawabunga/tinyengine/src/Game.cpp:
 
@@ -3433,6 +3886,8 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__bit/byteswap.h:
 
+/Users/cawabunga/tinyengine/libs/glm/ext/matrix_double2x4_precision.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/string.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/find.h:
@@ -3441,14 +3896,10 @@ CMakeFiles/tinyengine.dir/src/Main.cpp.o: /Users/cawabunga/tinyengine/src/Main.c
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_equality_comparable.h:
 
+/Users/cawabunga/tinyengine/libs/glm/detail/func_exponential.inl:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_types/_uint32_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/count.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_reverse.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_printf.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_ctype.h:

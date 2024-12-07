@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/cawabunga/tinyengine/libs -I/opt/homebrew/Cellar/sdl2/2.30.1/include -I/opt/homebrew/include/lua -isystem /opt/homebrew/Cellar/sdl2/2.30.1/include/SDL2
+CXX_INCLUDES = -I/Users/cawabunga/tinyengine/libs -I/opt/homebrew/Cellar/sdl2/2.30.9/include -I/opt/homebrew/include/lua -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2 -isystem /opt/homebrew/Cellar/sdl2_image/2.8.2_2/include/SDL2
 
 CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
 

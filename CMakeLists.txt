@@ -22,4 +22,5 @@ file(GLOB_RECURSE SOURCES RELATIVE ${CMAKE_SOURCE_DIR} "src/*.cpp")
 add_executable(tinyengine ${SOURCES})
 
 # Link libraries
-target_link_libraries(tinyengine ${SDL2_LIBRARIES} ${SDL2_IMAGE_LIBRARIES} ${LUA_LIBRARIES})
+# target_link_libraries(tinyengine PRIVATE SDL2_image::SDL2_image)
+target_link_libraries(tinyengine SDL2_image::SDL2_image ${SDL2_LIBRARIES} ${SDL2_IMAGE_LIBRARIES} ${LUA_LIBRARIES})

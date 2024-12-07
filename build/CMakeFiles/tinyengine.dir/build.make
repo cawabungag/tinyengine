@@ -108,7 +108,8 @@ tinyengine_EXTERNAL_OBJECTS =
 tinyengine: CMakeFiles/tinyengine.dir/src/Game.cpp.o
 tinyengine: CMakeFiles/tinyengine.dir/src/Main.cpp.o
 tinyengine: CMakeFiles/tinyengine.dir/build.make
-tinyengine: /opt/homebrew/Cellar/sdl2/2.30.1/lib/libSDL2.dylib
+tinyengine: /opt/homebrew/Cellar/sdl2_image/2.8.2_2/lib/libSDL2_image.dylib
+tinyengine: /opt/homebrew/Cellar/sdl2/2.30.9/lib/libSDL2.dylib
 tinyengine: /opt/homebrew/lib/liblua5.4.dylib
 tinyengine: CMakeFiles/tinyengine.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/cawabunga/tinyengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tinyengine"

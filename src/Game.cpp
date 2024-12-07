@@ -1,7 +1,8 @@
 #include "Game.h"
 #include <iostream>
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
+#include "SDL.h"
+#include <SDL_image.h>
+#include <glm/glm.hpp>
 
 Game::Game() {
     isRunning = false;
@@ -42,9 +43,18 @@ void Game::Initialize() {
     isRunning = true;
 }
 
+glm::vec2 playerPosition;
+glm::vec2 playerVelocity;
+
 void Game::Setup()
 {
+    playerPosition = glm::vec2(10.0, 20.0);
+    playerVelocity = glm::vec2(1.0, 0.0);
+}
 
+void Game::Update() {
+    playerPosition.x += playerVelocity.x;
+    playerPosition.y += playerVelocity.y;
 }
 
 void Game::ProcessInput() {
@@ -71,23 +81,28 @@ void Game::ProcessInput() {
     
 }
 
-void Game::Update() {
-
-}
-
 void Game::Render() {
-    SDL_SetRenderDrawColor(renderer, 21, 21, 21, 255);
+    SDL_SetRenderDrawColor(renderer, 255, 21, 21, 255);
     SDL_RenderClear(renderer);
 
-    // SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
-    // SDL_Rect player = {10, 10, 20, 20};
-    // SDL_RenderFillRect(renderer, &player);
+    // Loads a PNG texture
+    SDL_Surface* surface = IMG_Load("../assets/images/tank-tiger-right.png");
+    SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, surface);
+    SDL_FreeSurface(surface);
 
+    // What is the destination rectangle that we want to place our texture
+    SDL_Rect dstRect = { 
+        static_cast<int>(playerPosition.x), 
+        static_cast<int>(playerPosition.y), 32, 32 };
+
+    SDL_RenderCopy(renderer, texture, NULL, &dstRect);
+    SDL_DestroyTexture(texture);
 
     SDL_RenderPresent(renderer);
 }
 
 void Game::Run() {
+    Setup();
     while (isRunning) {
         ProcessInput();
         Update();
