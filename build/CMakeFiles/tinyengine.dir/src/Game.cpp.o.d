@@ -1196,4 +1196,5 @@ CMakeFiles/tinyengine.dir/src/Game.cpp.o: \
   /Users/cawabunga/tinyengine/libs/glm/matrix.hpp \
   /Users/cawabunga/tinyengine/libs/glm/vector_relational.hpp \
   /Users/cawabunga/tinyengine/libs/glm/integer.hpp \
-  /Users/cawabunga/tinyengine/libs/glm/detail/func_integer.inl
+  /Users/cawabunga/tinyengine/libs/glm/detail/func_integer.inl \
+  /Users/cawabunga/tinyengine/src/Logger.h

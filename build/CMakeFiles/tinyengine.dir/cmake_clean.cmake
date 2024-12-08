@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tinyengine.dir/src/Game.cpp.o"
   "CMakeFiles/tinyengine.dir/src/Game.cpp.o.d"
+  "CMakeFiles/tinyengine.dir/src/Logger.cpp.o"
+  "CMakeFiles/tinyengine.dir/src/Logger.cpp.o.d"
   "CMakeFiles/tinyengine.dir/src/Main.cpp.o"
   "CMakeFiles/tinyengine.dir/src/Main.cpp.o.d"
   "tinyengine"

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/cawabunga/tinyengine/src/Game.cpp" "CMakeFiles/tinyengine.dir/src/Game.cpp.o" "gcc" "CMakeFiles/tinyengine.dir/src/Game.cpp.o.d"
+  "/Users/cawabunga/tinyengine/src/Logger.cpp" "CMakeFiles/tinyengine.dir/src/Logger.cpp.o" "gcc" "CMakeFiles/tinyengine.dir/src/Logger.cpp.o.d"
   "/Users/cawabunga/tinyengine/src/Main.cpp" "CMakeFiles/tinyengine.dir/src/Main.cpp.o" "gcc" "CMakeFiles/tinyengine.dir/src/Main.cpp.o.d"
   )
 
