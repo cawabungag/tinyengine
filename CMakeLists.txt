@@ -15,8 +15,13 @@ find_package(Lua REQUIRED)
 include_directories(libs)
 include_directories(${SDL2_INCLUDE_DIRS} ${SDL2_IMAGE_INCLUDE_DIRS} ${LUA_INCLUDE_DIR})
 
-# Source files
-file(GLOB_RECURSE SOURCES RELATIVE ${CMAKE_SOURCE_DIR} "src/*.cpp")
+
+# Collect source files
+file(GLOB_RECURSE SOURCES 
+    "src/*.cpp"
+    "src/Game/*.cpp"
+    "src/Logger/*.cpp"
+)
 
 # Add executable target
 add_executable(tinyengine ${SOURCES})
