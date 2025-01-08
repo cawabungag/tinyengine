@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <chrono>
+#include <ctime>
 
 std::vector<LogEntry> Logger::messages;
 
